@@ -4,6 +4,11 @@ import { Banner, Head } from "nextra/components";
 import { getPageMap } from "nextra/page-map";
 import "nextra-theme-docs/style.css";
 import "./styles.css";
+import { PageMapItem, Folder, MdxFile } from "nextra";
+
+export async function generateStaticParams() {
+  return [{ lang: "en" }, { lang: "de" }];
+}
 
 export const metadata: Metadata = {
   description: "DIY PID Controller für deine Espressomaschine",
@@ -16,6 +21,25 @@ export const metadata: Metadata = {
   }
 };
 
+function isFolder(item: PageMapItem): item is Folder {
+  return (item as Folder).children !== undefined;
+}
+
+function hasRoute(item: PageMapItem): item is Folder | MdxFile {
+  return "route" in item;
+}
+
+function localizeRoute(item: PageMapItem, lang: string): PageMapItem {
+  const result = { ...item };
+  if (hasRoute(result)) {
+    result.route = result.route.replace("/", `/${lang}/`);
+  }
+  if (isFolder(result)) {
+    result.children = result.children.map((child) => localizeRoute(child, lang));
+  }
+  return result;
+}
+
 export default async function RootLayout({
   children,
   params
@@ -24,6 +48,11 @@ export default async function RootLayout({
   params: Promise<{ lang: string }>;
 }) {
   const { lang } = await params;
+  let pageMap = await getPageMap(`/${lang}`);
+
+  // Localize routes (TODO: This should be done in the page-map module by nextra)
+  pageMap = [...pageMap.map((page: PageMapItem) => localizeRoute(page, lang))];
+
   const navbar = (
     <Navbar
       logo={
@@ -44,9 +73,9 @@ export default async function RootLayout({
           navbar={navbar}
           footer={<Footer />}
           editLink="Edit this page on GitHub"
-          docsRepositoryBase="https://github.com/shuding/nextra/blob/main/examples/docs"
+          docsRepositoryBase="https://github.com/cellcortex"
           sidebar={{ defaultMenuCollapseLevel: 1 }}
-          pageMap={await getPageMap(`/${lang}`)}
+          pageMap={pageMap}
           i18n={[
             { locale: "de", name: "Deutsch" },
             { locale: "en", name: "English" }

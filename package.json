@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "next": "15.1.5",
+    "next-intl": "^3.26.3",
     "nextra": "^4.0.3",
     "nextra-theme-docs": "^4.0.3",
     "react": "^19.0.0",
@@ -17,14 +18,14 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4.0.0-beta.8",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.1.5",
-    "postcss": "^8",
-    "@tailwindcss/postcss": "^4.0.0-beta.8",
     "pagefind": "^1.3.0",
+    "postcss": "^8",
     "tailwindcss": "^4.0.0-beta.8",
     "typescript": "^5"
   }
