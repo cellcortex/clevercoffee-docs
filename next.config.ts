@@ -15,5 +15,7 @@ export default withNextra({
   i18n: {
     locales: ["de", "en"],
     defaultLocale: "de"
-  }
+  },
+  output: "export",
+  search: true
 });
