@@ -14,9 +14,13 @@ export default withNextra({
   },
   i18n: {
     locales: ["de", "en"],
-    defaultLocale: "de"
+    defaultLocale: "de",
+    localeDetection: true
   },
   output: "export",
   distDir: "docs",
-  search: true
+  search: true,
+  images: {
+    unoptimized: true
+  }
 });

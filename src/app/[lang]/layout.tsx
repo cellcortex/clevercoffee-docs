@@ -57,7 +57,7 @@ export default async function RootLayout({
     <Navbar
       logo={
         <div>
-          <b>CleverCoffee</b> <span style={{ opacity: "60%" }}>TDIY PID Controller für deine Espressomaschine</span>
+          <b>CleverCoffee</b> <span style={{ opacity: "60%" }}>DIY PID Controller für deine Espressomaschine</span>
         </div>
       }
       // Clevercoffee discord server
