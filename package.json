@@ -10,8 +10,7 @@
     "lint": "next lint",
     "export": "next export",
     "postbuild": "pagefind --site .next/server/app --output-path public/_pagefind",
-    "prepublish": "pnpm build",
-    "publish": "gh-pages -d docs"
+    "ghpages": "gh-pages -d docs"
   },
   "dependencies": {
     "next": "15.1.5",
