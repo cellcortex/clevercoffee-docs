@@ -2,7 +2,7 @@
   "name": "clevercoffee-docs",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://gitname.github.io/demo-clevercoffee-docs",
+  "homepage": "https://cellcortex.github.io/clevercoffee-docs",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
