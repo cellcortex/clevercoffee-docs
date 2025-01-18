@@ -1,7 +1,8 @@
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
   logo: {
-    title: "React Hooks for Data Fetching"
+    title: "CleverCoffee",
+    claim: "DIY PID Controller for your espresso machine"
   },
   danger: {
     title: "Warning",

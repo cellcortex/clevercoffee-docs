@@ -5,6 +5,8 @@ import { getPageMap } from "nextra/page-map";
 import "nextra-theme-docs/style.css";
 import "./styles.css";
 import { PageMapItem, Folder, MdxFile } from "nextra";
+import { getDictionary } from "@/dictionaries/get-dictionary";
+import Image from "next/image";
 
 export async function generateStaticParams() {
   return [{ lang: "en" }, { lang: "de" }];
@@ -49,6 +51,7 @@ export default async function RootLayout({
 }) {
   const { lang } = await params;
   let pageMap = await getPageMap(`/${lang}`);
+  const dictionary = await getDictionary(lang);
 
   // Localize routes (TODO: This should be done in the page-map module by nextra)
   pageMap = [...pageMap.map((page: PageMapItem) => localizeRoute(page, lang))];
@@ -56,10 +59,14 @@ export default async function RootLayout({
   const navbar = (
     <Navbar
       logo={
-        <div>
-          <b>CleverCoffee</b> <span style={{ opacity: "60%" }}>DIY PID Controller für deine Espressomaschine</span>
-        </div>
+        <>
+          <Image height={48} width={48} src="/logo.png" alt="CleverCoffee Logo" />
+          <span className="ms-2 font-extrabold select-none max-md:hidden" title={`${dictionary.logo.title}`}>
+            <b>${dictionary.logo.title}</b> <span style={{ opacity: "60%" }}>${dictionary.logo.claim}</span>
+          </span>
+        </>
       }
+      projectLink="https://github.com/rancilio-pid/clevercoffee"
       // Clevercoffee discord server
       chatLink="https://discord.com/invite/Kq5RFznuU4"
     />
