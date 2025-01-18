@@ -10,7 +10,7 @@
     "lint": "next lint",
     "export": "next export",
     "postbuild": "pagefind --site .next/server/app --output-path public/_pagefind",
-    "ghpages": "gh-pages -d docs"
+    "deploy": "gh-pages -d docs"
   },
   "dependencies": {
     "next": "15.1.5",
