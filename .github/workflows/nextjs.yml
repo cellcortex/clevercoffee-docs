@@ -23,16 +23,16 @@ jobs:
       matrix:
         node-version: [20]
     steps:
-    # 1. Checkout the repository
-    - name: Checkout Repository
-      uses: actions/checkout@v4
+      # 1. Checkout the repository
+      - name: Checkout Repository
+        uses: actions/checkout@v4
 
       # 2. Setup Node.js
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v4
-      with:
-        node-version: ${{ matrix.node-version }}
-        cache: 'pnpm'
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: "pnpm"
 
       # 3. Setup pnpm
       - name: Setup pnpm
@@ -45,8 +45,8 @@ jobs:
         uses: actions/cache@v4
         with:
           path: |
-            .next/cache               # Next.js build cache
-            ~/.pnpm-store             # pnpm store for cached dependencies
+            .next/cache
+            ~/.pnpm-store
           key: ${{ runner.os }}-nextra-${{ hashFiles('**/pnpm-lock.yaml') }}-${{ hashFiles('**/*.js', '**/*.ts', '**/*.jsx', '**/*.tsx') }}
           restore-keys: |
             ${{ runner.os }}-nextra-
