@@ -45,3 +45,4 @@ next-env.d.ts
 tsup.config.bundled*
 tsconfig.tsbuildinfo
 _pagefind/
+docs/
