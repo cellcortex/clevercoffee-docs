@@ -44,5 +44,3 @@ next-env.d.ts
 .eslintcache
 tsup.config.bundled*
 tsconfig.tsbuildinfo
-_pagefind/
-docs/
