@@ -10,13 +10,13 @@
     "lint": "next lint",
     "export": "next export",
     "postbuild": "pagefind --site .next/server/app --output-path public/_pagefind",
-    "deploy": "gh-pages -d docs --nojekyll"
+    "deploy": "gh-pages -d out --nojekyll"
   },
   "dependencies": {
     "next": "15.1.5",
     "next-intl": "^3.26.3",
-    "nextra": "^4.0.3",
-    "nextra-theme-docs": "^4.0.3",
+    "nextra": "^4.0.4",
+    "nextra-theme-docs": "^4.0.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },

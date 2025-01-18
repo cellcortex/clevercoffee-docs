@@ -17,7 +17,6 @@ export default withNextra({
     defaultLocale: "de"
   },
   output: "export",
-  distDir: "docs",
   images: {
     unoptimized: true
   }
