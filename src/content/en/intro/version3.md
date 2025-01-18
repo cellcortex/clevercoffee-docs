@@ -9,13 +9,6 @@ nav_order: 3
 
 # What is different in version 3.0.0 ?
 
-{: .no_toc }
-
-Contents
-
-- TOC
-  {:toc}
-
 ## Introduction
 
 [![Installation video](https://img.youtube.com/vi/KZPjisOEcQ4/hqdefault.jpg)](https://www.youtube.com/watch?v=KZPjisOEcQ4)

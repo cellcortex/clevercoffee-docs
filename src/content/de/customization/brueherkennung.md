@@ -20,14 +20,14 @@ Mit den folgenden Parametern der User Config, kann die Bezugserkennung aktiviert
 
 _User Config Parameter für Version < 4.x:_
 
-```
+```c
 #define BREWDETECTION 1
 // 0 = off, 1 = Software, 2 = Hardware, 3 = Sensor/Hardware for Only PID
 ```
 
 _User Config Parameter für Version ab v4.x:_
 
-```
+```c
 #define FEATURE_BREWDETECTION 1    // 0 = deactivated, 1 = activated
 #define BREWDETECTION_TYPE 3       // 1 = Software (Onlypid 1), 2 = Hardware (Onlypid 0), 3 = optocoupler for Only PID
 ```
@@ -47,7 +47,7 @@ Da es unterschiedliche Sensoren gibt, muss konfiguriert werden wie das Signal de
 
 _User Config Parameter für Version < 4.x:_
 
-```
+```c
 #define VOLTAGESENSORTYPE HIGH
 #define PINMODEVOLTAGESENSOR INPUT // Mode INPUT_PULLUP, INPUT or INPUT_PULLDOWN_16 (Only Pin 16)
 #define PINVOLTAGESENSOR  15       //Input pin for voltage sensor
@@ -63,7 +63,7 @@ _User Config Parameter für Version < 4.x:_
 
 _User Config Parameter für Version ab v4.x:_
 
-```
+```c
 #define OPTOCOUPLER_TYPE HIGH      // BREWDETECTION 3 configuration; HIGH or LOW trigger optocoupler
 ```
 
@@ -84,7 +84,7 @@ Der Sensor erhält 3,3 Volt und die andere Seite wird mit PIN 15 verbunden.
 
 _User Config Parameter für Version < 4.x:_
 
-```
+```c
 // PID & Hardware
 [...]
 #define VOLTAGESENSORTYPE HIGH
@@ -97,7 +97,7 @@ _User Config Parameter für Version < 4.x:_
 
 _User Config Parameter für Version ab v4.x:_
 
-```
+```c
 #define OPTOCOUPLER_TYPE HIGH      // BREWDETECTION 3 configuration; HIGH or LOW trigger optocoupler
 ```
 
@@ -111,7 +111,7 @@ Der Sensor erhält 3,3 Volt und die Signalleitung wird mit PIN 16 bzw. `BREW` (a
 
 _User Config Parameter für Version < 4.x:_
 
-```
+```c
 // PID & Hardware
 [...]
 #define VOLTAGESENSORTYPE LOW
@@ -124,7 +124,7 @@ _User Config Parameter für Version < 4.x:_
 
 _User Config Parameter für Version ab v4.x:_
 
-```
+```c
 #define OPTOCOUPLER_TYPE LOW      // BREWDETECTION 3 configuration; HIGH or LOW trigger optocoupler
 ```
 

@@ -5,13 +5,6 @@ title: Software installieren (CLI)
 
 # Software installieren (CLI)
 
-{: .no_toc }
-
-Inhaltsverzeichnis
-
-- TOC
-  {:toc}
-
 ## Übersicht
 
 Diese Installationsanleitung richtet sich an Benutzer, die sich auf der Kommandozeile (CLI) wohl fühlen. Die Anleitung ist ausschließlich auf Linux getestet, sollte aber auch auf MacOS funktionieren.

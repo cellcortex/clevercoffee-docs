@@ -9,13 +9,6 @@ nav_order: 6
 
 # MQTT
 
-{: .no_toc }
-
-Inhaltsverzeichnis
-
-- TOC
-  {:toc}
-
 # Konfiguration
 
 MQTT kann nach der Konfiguration von folgenden Punkten in der userConfig zur Steuerung und zum Auslesen von werten genutzt werden:

@@ -9,13 +9,6 @@ nav_order: 3
 
 # Description of userConfig.h
 
-{: .no_toc}
-
-Contents
-
-- TOC
-  {:toc}
-
 ## userConfig.h
 
 Inside the folder `rancilio-pid/rancilio-pid`, you will find an important file:

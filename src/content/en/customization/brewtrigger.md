@@ -9,13 +9,6 @@ nav_order: 8
 
 # Brew Switch and Brew Trigger
 
-{: .no_toc }
-
-Table of Contents
-
-- TOC
-  {:toc}
-
 ## Introduction
 
 CleverCoffee supports both brew switches (which remain switched on after flipping) and brew triggers (which automatically snap back after flipping) in the "full configuration".

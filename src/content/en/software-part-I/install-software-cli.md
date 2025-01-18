@@ -5,13 +5,6 @@ title: Install Software (CLI)
 
 # Install Software (CLI)
 
-{: .no_toc }
-
-Contents
-
-- TOC
-  {:toc}
-
 ## Overview
 
 This installation tutorial is meant for users that prefer the command line interface (CLI).

@@ -9,13 +9,6 @@ nav_order: 6
 
 # InfluxDB
 
-{: .no_toc }
-
-Inhaltsverzeichnis
-
-- TOC
-  {:toc}
-
 # Konfiguration
 
 InfluxDB kann nach der Konfiguration von folgenden Punkten in der userConfig zum speichern von werten genutzt werden:

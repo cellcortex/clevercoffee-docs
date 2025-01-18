@@ -7,13 +7,6 @@ has_children: false
 nav_order: 1
 ---
 
-{: .no_toc }
-
-Contents
-
-- TOC
-  {:toc}
-
 # ESP32 PCB
 
 <p>Several different revisions of our PCB are in use by now.<br>

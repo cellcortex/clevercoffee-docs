@@ -42,12 +42,12 @@ Sonst nutzt Ihr den „normalen Blynk“-Server.
 
 ![](/img/software-part-I/blynk/IMG_0116-576x1024.png)
 
-**WICHTIG**:
-
-Legt den Schalter auf „Custom“ um.
-Als Server tragt Ihr: blynk.clevercoffee.de
-Port: 9443
-Bestätigt die Eingabe mit „OK“
+> [!IMPORTANT]:
+>
+> Legt den Schalter auf „Custom“ um.
+> Als Server tragt Ihr: blynk.clevercoffee.de
+> Port: 9443
+> Bestätigt die Eingabe mit „OK“
 
 ![](/img/software-part-I/blynk/IMG_0117-576x1024.png)
 

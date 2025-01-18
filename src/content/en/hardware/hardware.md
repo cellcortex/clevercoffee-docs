@@ -9,13 +9,6 @@ nav_order: 1
 
 # Assembly And Installation Of Hardware
 
-{: .no_toc }
-
-Contents
-
-- TOC
-  {:toc}
-
 ## Test Assembly
 
 After you gathered all the individual parts, we recommend to do a test assembly outside of the machine. This way, you can get the whole system up and running and can still reach all cables and parts easily.

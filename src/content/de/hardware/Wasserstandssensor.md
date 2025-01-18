@@ -67,7 +67,9 @@ Der Sensor muss in der Firmware noch aktiviert werden. Hierfür in der Datei `us
 #define WATER_SENS_TYPE 0          // 0 = water sensor XKC-Y25-NPN connected, 1 = XKC-Y25-PNP connected
 ```
 
-**Wichtig**: Den Wert für `WATER_SENS_TYPE` auf den korrekten Wert für den verwendetem Sensortyp (NPN oder PNP) stellen.
+> [!IMPORTANT]
+>
+> Den Wert für `WATER_SENS_TYPE` auf den korrekten Wert für den verwendetem Sensortyp (NPN oder PNP) stellen.
 
 Danach die Firmware auf den ESP flashen ("Upload") und der Wasserstandssensor sollte funktionieren.
 

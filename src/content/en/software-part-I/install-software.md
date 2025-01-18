@@ -5,13 +5,6 @@ title: Install Software
 
 # Install Software
 
-{: .no_toc }
-
-Contents
-
-- TOC
-  {:toc}
-
 ## Overview
 
 The following software needs to be installed, starting with version 4 on the ESP32, or until version 3.1.3 with the ESP8266:

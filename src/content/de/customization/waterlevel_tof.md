@@ -9,13 +9,6 @@ nav_order: 7
 
 # Füllstand-Sensor
 
-{: .no_toc }
-
-Inhaltsverzeichnis
-
-- TOC
-  {:toc}
-
 ## Einleitung
 
 **Disclaimer: dieses Feature wird demnächst überarbeitet, das das Prinzip nicht stabil genug funktioniert. Eine Umsetzung ist so wie hier beschrieben nicht empfohlen.**

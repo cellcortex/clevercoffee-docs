@@ -124,10 +124,10 @@ Wer einen Dremel besitzt, etwas Geschick mitbringt und kein Problem damit hat, d
 
 Wer hintgegen eine reversible Lösung sucht muss sich um eine Displayhalterung (aka 3D Case) bemühen. Eine "Standardlösung" ist aktuell nicht bekannt, aber für alle 3D-Drucker Besitzer, liegen entsprechende Vorlagen auf [Github](https://github.com/rancilio-pid/ranciliopid-handbook/tree/main/3d-designs) (inkl. [Anleitung](https://github.com/rancilio-pid/ranciliopid-handbook/blob/main/3d-designs/Einbauanleitung.pdf) für den Einbau und die Magnete):
 
-- [Rancilio STL](https://github.com/rancilio-pid/ranciliopid-handbook/blob/main/3d-designs/Case%20Rancilio.stl){:target="\_blank"}
-- [Gaggia STL](https://github.com/rancilio-pid/ranciliopid-handbook/blob/main/3d-designs/Case%20Gaggia.stl){:target="\_blank"}
-- [Universal-Halter](https://www.thingiverse.com/thing:4897546){:target="\_blank"}
-- [Halterung zum reinklicken](https://www.thingiverse.com/thing:4662947){:target="\_blank"}
+- [Rancilio STL](https://github.com/rancilio-pid/ranciliopid-handbook/blob/main/3d-designs/Case%20Rancilio.stl)
+- [Gaggia STL](https://github.com/rancilio-pid/ranciliopid-handbook/blob/main/3d-designs/Case%20Gaggia.stl)
+- [Universal-Halter](https://www.thingiverse.com/thing:4897546)
+- [Halterung zum reinklicken](https://www.thingiverse.com/thing:4662947)
 
 ## Spannende Addons die gleich mit erledigt werden können
 

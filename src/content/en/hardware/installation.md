@@ -5,13 +5,6 @@ title: Installation
 
 # Installation
 
-{: .no_toc }
-
-Contents
-
-- TOC
-  {:toc}
-
 As a first step, we suggest to cut all cables to a length of around 60 cm. After connecting them on one end, you can route them through the machine and finally cut them to length as required.
 
 Preparations:

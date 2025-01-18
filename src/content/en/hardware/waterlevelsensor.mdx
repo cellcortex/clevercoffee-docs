@@ -9,13 +9,6 @@ nav_order: 4
 
 # Installation of a Water Level Sensor
 
-{: .no_toc }
-
-Table of Contents
-
-- TOC
-  {:toc}
-
 ## Introduction
 
 Starting from version 4.0.0, the installation of a water level sensor is supported, which can detect the water level in the machine's plastic tank. It does not measure the remaining amount of water, but rather whether there is water at the installation height of the sensor ("yes") or not ("no").
@@ -73,7 +66,9 @@ The sensor needs to be activated in the firmware. For this, search for and adjus
 #define WATER_SENS_TYPE 0          // 0 = water sensor XKC-Y25-NPN connected, 1 = XKC-Y25-PNP connected
 ```
 
-**Important**: Set the value for `WATER_SENS_TYPE` to the correct value for the used sensor type (NPN or PNP).
+> [!IMPORTANT]:
+>
+> Set the value for `WATER_SENS_TYPE` to the correct value for the used sensor type (NPN or PNP).
 
 Afterward, flash the firmware to the ESP ("Upload"), and the water level sensor should work.
 

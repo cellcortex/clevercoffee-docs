@@ -9,13 +9,6 @@ nav_order: 2
 
 # Introduction to the PID system
 
-{: .no_toc }
-
-Contents
-
-- TOC
-  {:toc}
-
 ## What is a PID control good for?
 
 A PID controller gives considerably better control of the water temperature in your espresso machine than the standard bimetal thermostat.
