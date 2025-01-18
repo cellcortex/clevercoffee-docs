@@ -6,7 +6,6 @@ has_children: true
 nav_order: 3
 ---
 
-
 # PCB
 
 To make it easier for you to get started with CleverCoffee, we developed a printed circuit board (PCB) to place the ESP32 on.

@@ -8,12 +8,13 @@ nav_order: 1
 ---
 
 # Requirements – Warning
+
 {: .no_toc }
 
 Contents
 
-* TOC
-{:toc}
+- TOC
+  {:toc}
 
 ## Warning
 
@@ -28,7 +29,6 @@ You will alter and extend the high voltage cabling installed in your espresso ma
 If you are not competent or unsure about what the task entails, get help from a professional. We are happy to answer questions, but cannot take responsibility for the work you do.
 
 This modification is expected to void any eventual warranty on your machine.
-
 
 ### Am I interested in the inner workings of my espresso machine and the PID controller?
 

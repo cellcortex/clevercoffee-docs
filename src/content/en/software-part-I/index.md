@@ -6,16 +6,14 @@ has_children: true
 nav_order: 3
 ---
 
-
 # Software
 
 {: .no_toc }
 
 Contents
 
-* TOC
-{:toc}
-
+- TOC
+  {:toc}
 
 ## Introduction
 

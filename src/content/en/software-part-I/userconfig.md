@@ -7,32 +7,29 @@ has_children: false
 nav_order: 3
 ---
 
-
 # Description of userConfig.h
 
 {: .no_toc}
 
 Contents
 
-* TOC
-{:toc}
-
+- TOC
+  {:toc}
 
 ## userConfig.h
 
 Inside the folder `rancilio-pid/rancilio-pid`, you will find an important file:
-* `userConfig_sample.h`
+
+- `userConfig_sample.h`
 
 In this file, you can set all basic configurations, for example which Pins should be used for what on the microcontroller. Those configurations will be explained in a moment.
 Rename the file `userConfig_sample.h` to `userConfig.h`.
 
 **Note**: When updating the sourcecode to a new version of the PID project, please always also use the newest version of the `userConfig_sample.h` file and edit it with the values of your existing `userConfig.h` file. Otherwise, errors could occur while compiling the new code with the old config file, or other unspecified or unwanted behaviour of the machine could occur: the display doesn't update, the PID doesn't start, etc...
 
-
 ## Parameters of the userConfig.h
 
 The `userConig.h` file is splitted into multiple parts.
-
 
 ### List of supported machines
 
@@ -54,7 +51,6 @@ Enter the ID of your machine here. This parameter defines what logo is shown on 
 ```
 #define MACHINEID 0                //  see above list of supported machines
 ```
-
 
 ### DISPLAY
 
@@ -93,7 +89,6 @@ All relevant settings for the display are configured here.
 
 `VERBOSE` (...)
 
-
 ### PID & Hardware
 
 Here, the most important parameters for the PID hardware are defined.
@@ -127,7 +122,6 @@ Here, the most important parameters for the PID hardware are defined.
 
 `TEMPLED` (...)
 
-
 ## TOF Sensor for water level measurement
 
 ```
@@ -139,7 +133,6 @@ Here, the most important parameters for the PID hardware are defined.
 ```
 
 If you don't have a TOF sensor, you can ignore this part and set `TOF` to zero (0).
-
 
 ## E-Trigger
 
@@ -156,7 +149,6 @@ The corresponding Pins will be defined in [Pin Layout](#pin-layout) further belo
 
 `TRIGGERRELAYTYPE` is the type of relay (`HIGH` or `LOW`).
 
-
 ## Weight Scale
 
 ```
@@ -165,8 +157,7 @@ The corresponding Pins will be defined in [Pin Layout](#pin-layout) further belo
 
 `WEIGHTSETPOINT` sets the tare of the weight.
 
-
-##  WiFi
+## WiFi
 
 ```
 #define HOSTNAME "rancilio"
@@ -180,7 +171,6 @@ The corresponding Pins will be defined in [Pin Layout](#pin-layout) further belo
 
 `WIFICONNECTIONDELAY` defines the time between WiFi reconnection attempts.
 
-
 ## OTA
 
 ```
@@ -188,7 +178,6 @@ The corresponding Pins will be defined in [Pin Layout](#pin-layout) further belo
 #define OTAHOST "rancilio"         // Name to be shown in ARUDINO IDE Port
 #define OTAPASS "otapass"          // Password for OTA updates
 ```
-
 
 ## MQTT
 
@@ -201,7 +190,6 @@ The corresponding Pins will be defined in [Pin Layout](#pin-layout) further belo
 #define MQTT_SERVER_PORT 1883
 ```
 
-
 ## Backflush values
 
 ```
@@ -209,7 +197,6 @@ The corresponding Pins will be defined in [Pin Layout](#pin-layout) further belo
 #define FILLTIME 3000              // Time in ms the pump is running
 #define FLUSHTIME 6000             // Time in ms the 3-way valve is open -> backflush
 ```
-
 
 ## Pin Layout
 

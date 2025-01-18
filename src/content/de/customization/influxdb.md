@@ -8,12 +8,13 @@ nav_order: 6
 ---
 
 # InfluxDB
+
 {: .no_toc }
 
 Inhaltsverzeichnis
 
-* TOC
-{:toc}
+- TOC
+  {:toc}
 
 # Konfiguration
 
@@ -36,6 +37,7 @@ InfluxDB kann nach der Konfiguration von folgenden Punkten in der userConfig zum
 Eine vollständige Liste aller Parameter findet sich in der Datei InfluxDB.h (speicherbare Werte in sendInflux()).
 
 ## InfluxDB v1
+
 Beispiel Konfiguration fuer InfluxDB Version < 2.x:
 
 ```
@@ -53,6 +55,7 @@ Beispiel Konfiguration fuer InfluxDB Version < 2.x:
 ```
 
 ## InfluxDB v2
+
 Beispiel Konfiguration fuer InfluxDB Version >= 2.x:
 
 ```
@@ -70,5 +73,5 @@ Beispiel Konfiguration fuer InfluxDB Version >= 2.x:
 ```
 
 ## Selfsigned SSL Zertifikate
-Nutzt man InfluxDB mit eigenen Zerifikaten (Selfsigned), kann man durch setzen von `#define INFLUXDB_INSECURE 1` die Überprüfung des Zertifikats abschalten.
 
+Nutzt man InfluxDB mit eigenen Zerifikaten (Selfsigned), kann man durch setzen von `#define INFLUXDB_INSECURE 1` die Überprüfung des Zertifikats abschalten.

@@ -3,7 +3,11 @@
 "use client"; // Enables client-side rendering for components that use hooks
 import "./styles.css"; // Import global CSS
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en">
       <head>

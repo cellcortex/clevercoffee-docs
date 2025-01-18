@@ -16,4 +16,5 @@ The first step towards your own PID is procuring the parts as per the provided l
 More information is available at the [CleverCoffee Website](https://clevercoffee.de/).
 
 ## Contact
+
 Join the [Discord Server](https://discord.com/invite/Kq5RFznuU4). It has a tendency to be mostly German, but English is welcome.

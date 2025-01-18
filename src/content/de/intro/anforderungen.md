@@ -8,21 +8,19 @@ nav_order: 1
 ---
 
 # Anforderungen an dich – Warnhinweis
+
 {: .no_toc }
 
 Inhaltsverzeichnis
 
-* TOC
-{:toc}
-
+- TOC
+  {:toc}
 
 ## Warnhinweis
 
 > {{ site.warning.de }}
 
-
 ## Zentrale Fragen
-
 
 ### Traue ich mir zu mit 230V Spannung zu arbeiten? Ist mir die Gefahr bewusst?
 
@@ -31,7 +29,6 @@ Ihr verändert bzw. erweitert mit dem Einbau die werksseitige 230V-Verkabelung d
 Wenn ihr das nicht fachlich richtig umsetzen könnt oder unsicher seid, sucht euch bitte jemanden vom Fach! Für jemanden mit Grundwissen in Elektrotechnik ist der Einbau kein Problem. Wir helfen bei konkreten Fragen gerne weiter, aber die Verantwortung für euren Umbau können und wollen wir euch nicht abnehmen!
 
 Eine eventuell noch bestehende Garantie bei neueren Maschinen ist durch den Einbau selbstverständlich erloschen, das muss euch ebenfalls bewusst sein.
-
 
 ### Habe ich Lust dazu, mich näher mit meiner Maschine und mit der PID-Steuerung zu beschäftigen?
 

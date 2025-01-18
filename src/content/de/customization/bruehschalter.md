@@ -8,17 +8,18 @@ nav_order: 8
 ---
 
 # Brühschalter und Brühtrigger
+
 {: .no_toc }
 
 Inhaltsverzeichnis
 
-* TOC
-{:toc}
+- TOC
+  {:toc}
 
 ## Einleitung
 
-CleverCoffee unterstützt im "Vollausbau" sowohl Brühschalter (die nach dem Umlegen angeschaltet bleiben) und Brühtrigger (die nach dem Umlegen automatisch zurückschnappen). 
-Je nach verbauter Hardware ist die Konfiguration in der `userConfig.h` anzupassen: 
+CleverCoffee unterstützt im "Vollausbau" sowohl Brühschalter (die nach dem Umlegen angeschaltet bleiben) und Brühtrigger (die nach dem Umlegen automatisch zurückschnappen).
+Je nach verbauter Hardware ist die Konfiguration in der `userConfig.h` anzupassen:
 
 ```
 #define FEATURE_BREWSWITCH 0                     // 0 = deactivated, 1 = activated
@@ -27,7 +28,7 @@ Je nach verbauter Hardware ist die Konfiguration in der `userConfig.h` anzupasse
 
 ### Brühkopf Spülen mit Brühtrigger
 
-Um den Brühkopf, z.B. nach einem Bezug durchzuspülen, kann der Brühtrigger gehalten werden. Die Pumpe läuft solange der Trigger gehalten wird. Eine möglicherweise konfigurierte Präinfusion und Präinfusionspause werden nicht berücksichtigt. 
+Um den Brühkopf, z.B. nach einem Bezug durchzuspülen, kann der Brühtrigger gehalten werden. Die Pumpe läuft solange der Trigger gehalten wird. Eine möglicherweise konfigurierte Präinfusion und Präinfusionspause werden nicht berücksichtigt.
 
 ### Rancilio Silvia: Umbau Brühschalter auf Brühtrigger
 

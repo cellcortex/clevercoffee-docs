@@ -7,33 +7,30 @@ has_children: false
 nav_order: 3
 ---
 
-
 # Beschreibung der userConfig.h
 
 {: .no_toc }
 
 Inhaltsverzeichnis
 
-* TOC
-{:toc}
-
+- TOC
+  {:toc}
 
 ## userConfig.h
 
 Im Ordner `rancilio-pid/rancilio-pid` befindet sich eine für euch wichtige Datei:
-* `userConfig_sample.h`
+
+- `userConfig_sample.h`
 
 In dieser Datei könnt ihr alle grundlegenden Einstellungen vornehmen, wie beispielsweise die genutzten Pins auf dem Mikrocontroller. Diese Einstellungen werden nun gleich genauer erläutert.
 Die `userConfig_sample.h` muss in `userConfig.h` umbenannt werden und mit euren Werten anpasste werden.
 
 **Hinweis**: Bei einem Update auf eine neuere PID-Version bitte unbedingt auch die neuste Version der `userConfig_sample.h` nehmen und mit euren Werten aus der alten `userConfig.h` anpassen.
-Wenn Ihr das nicht tut, kann dies Fehler beim Kompilieren verursachen oder zu unspezifischem, nicht       erwünschtem Verhalten an der Maschine kommen: Display hängt, PID startet nicht und weitere Probleme       können auftreten.
-
+Wenn Ihr das nicht tut, kann dies Fehler beim Kompilieren verursachen oder zu unspezifischem, nicht erwünschtem Verhalten an der Maschine kommen: Display hängt, PID startet nicht und weitere Probleme können auftreten.
 
 ## Die Parameter in der userConfig.h
 
 Die `userConfig.h` ist in mehrere Abschnitte unterteilt.
-
 
 ### Liste der unterstützten Maschinen
 
@@ -55,7 +52,6 @@ Hier müsst ihr die ID eurer Maschine eintragen. Dieser Parameter steuert die Lo
 ```
 #define MACHINEID 0                //  see above list of supported machines
 ```
-
 
 ### DISPLAY
 
@@ -94,7 +90,6 @@ Hier werden alle für das Display relevanten Einstellungen vorgenommen.
 
 `VERBOSE` (...)
 
-
 ## PID & Hardware
 
 Hier sind die wichtigsten Parameter für die PID/Hardware definiert.
@@ -128,7 +123,6 @@ Hier sind die wichtigsten Parameter für die PID/Hardware definiert.
 
 `TEMPLED` (...)
 
-
 ## TOF Sensor für Wasserstandmessung
 
 ```
@@ -140,7 +134,6 @@ Hier sind die wichtigsten Parameter für die PID/Hardware definiert.
 ```
 
 Habt ihr keinen TOF Sensor, könnt ihr diesen Teil ignorieren und `TOF` (0) einstellen.
-
 
 ## E-Trigger
 
@@ -157,16 +150,15 @@ Der zugehörige Pin wird später im Abschnitt [Pin Layout](#pin-layout) definier
 
 `TRIGGERRELAYTYPE` ist der Relaistyp (`HIGH` oder `LOW`).
 
-
 ## Weight Scale
 
 ```
 #define WEIGHTSETPOINT 30          // Gramm
 ```
+
 Hier wird mit `WEIGHTSETPOINT` das Sollgewicht für die Waage definiert.
 
-
-##  WiFi
+## WiFi
 
 ```
 #define HOSTNAME "rancilio"
@@ -180,7 +172,6 @@ Hier wird mit `WEIGHTSETPOINT` das Sollgewicht für die Waage definiert.
 
 `WIFICONNECTIONDELAY` ist die Zeitspanne bis der nächste Reconnect probiert wird.
 
-
 ## OTA
 
 ```
@@ -188,7 +179,6 @@ Hier wird mit `WEIGHTSETPOINT` das Sollgewicht für die Waage definiert.
 #define OTAHOST "rancilio"         // Name to be shown in ARUDINO IDE Port
 #define OTAPASS "otapass"          // Password for OTA updates
 ```
-
 
 ## MQTT
 
@@ -208,7 +198,6 @@ Hier wird mit `WEIGHTSETPOINT` das Sollgewicht für die Waage definiert.
 #define FILLTIME 3000              // Time in ms the pump is running
 #define FLUSHTIME 6000             // Time in ms the 3-way valve is open -> backflush
 ```
-
 
 ## Pin Layout
 

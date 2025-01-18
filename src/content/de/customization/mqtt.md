@@ -8,12 +8,13 @@ nav_order: 6
 ---
 
 # MQTT
+
 {: .no_toc }
 
 Inhaltsverzeichnis
 
-* TOC
-{:toc}
+- TOC
+  {:toc}
 
 # Konfiguration
 
@@ -28,8 +29,8 @@ MQTT kann nach der Konfiguration von folgenden Punkten in der userConfig zur Ste
 #define MQTT_SERVER_PORT 1883
 ```
 
-Werte können mit 
-custom/{MQTT_TOPIC_PREFIX}/{var}/set gesetzt werden. 
+Werte können mit
+custom/{MQTT_TOPIC_PREFIX}/{var}/set gesetzt werden.
 
 z.B:
 custom/Kitchen.silvia/brewSetPoint/set 95

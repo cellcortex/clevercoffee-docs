@@ -8,17 +8,18 @@ nav_order: 8
 ---
 
 # Brew Switch and Brew Trigger
+
 {: .no_toc }
 
 Table of Contents
 
-* TOC
-{:toc}
+- TOC
+  {:toc}
 
 ## Introduction
 
-CleverCoffee supports both brew switches (which remain switched on after flipping) and brew triggers (which automatically snap back after flipping) in the "full configuration". 
-Depending on the hardware installed, the configuration in `userConfig.h` must be adapted: 
+CleverCoffee supports both brew switches (which remain switched on after flipping) and brew triggers (which automatically snap back after flipping) in the "full configuration".
+Depending on the hardware installed, the configuration in `userConfig.h` must be adapted:
 
 ```
 #define FEATURE_BREWSWITCH 0                     // 0 = deactivated, 1 = activated
@@ -27,7 +28,7 @@ Depending on the hardware installed, the configuration in `userConfig.h` must be
 
 ### Brew head rinse with brew trigger
 
-To rinse the brew head, e.g. after a brew, the brew trigger can be held. The pump runs as long as the trigger is held. Any configured pre-infusion and pre-infusion pause are not taken into account. 
+To rinse the brew head, e.g. after a brew, the brew trigger can be held. The pump runs as long as the trigger is held. Any configured pre-infusion and pre-infusion pause are not taken into account.
 
 ### Rancilio Silvia: Conversion of brew switch to brew trigger
 

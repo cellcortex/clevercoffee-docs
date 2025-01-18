@@ -37,8 +37,8 @@ Der zu verwendende Controller (ESP8266 oder ESP32) richtet sich nach der von euc
 
 Im folgenden die empfohlenen, hitzebeständigen Kabel.
 
-| Beschreibung                                                  | ID     | Anzahl PID Only | Anzahl Vollausbau | Link                                                                                                                              |
-| ------------------------------------------------------------- | ------ | --------------- | ----------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| Beschreibung                                                   | ID     | Anzahl PID Only | Anzahl Vollausbau | Link                                                                                                                              |
+| -------------------------------------------------------------- | ------ | --------------- | ----------------- | --------------------------------------------------------------------------------------------------------------------------------- |
 | Hochtemperaturader ÖLFLEX® HEAT 180 SIF 1 x 1.50 mm², schwarz | 601382 | 2               | 2                 | [Link](https://www.conrad.de/de/p/lapp-0051001-hochtemperaturader-oelflex-heat-180-sif-1-x-1-50-mm-schwarz-meterware-601382.html) |
 | Hochtemperaturader ÖLFLEX® HEAT 180 SIF 1 x 1.50 mm², blau    | 600368 | 2               | 2                 | [Link](https://www.conrad.de/de/p/lapp-0051002-hochtemperaturader-oelflex-heat-180-sif-1-x-1-50-mm-blau-meterware-600368.html)    |
 | Hochtemperaturader ÖLFLEX® HEAT 180 SIF 1 x 0.25 mm², schwarz | 604025 | 2               | 2                 | [Link](https://www.conrad.de/de/p/lapp-0047001-hochtemperaturader-oelflex-heat-180-sif-1-x-0-25-mm-schwarz-meterware-604025.html) |

@@ -14,11 +14,11 @@ export const metadata: Metadata = {
   description: "DIY PID Controller für deine Espressomaschine",
   title: {
     absolute: "",
-    template: "%s | CC"
+    template: "%s | CC",
   },
   other: {
-    "msapplication-TileColor": "#fff"
-  }
+    "msapplication-TileColor": "#fff",
+  },
 };
 
 function isFolder(item: PageMapItem): item is Folder {
@@ -35,14 +35,16 @@ function localizeRoute(item: PageMapItem, lang: string): PageMapItem {
     result.route = result.route.replace("/", `/${lang}/`);
   }
   if (isFolder(result)) {
-    result.children = result.children.map((child) => localizeRoute(child, lang));
+    result.children = result.children.map((child) =>
+      localizeRoute(child, lang),
+    );
   }
   return result;
 }
 
 export default async function RootLayout({
   children,
-  params
+  params,
 }: {
   children: React.ReactNode;
   params: Promise<{ lang: string }>;
@@ -57,7 +59,10 @@ export default async function RootLayout({
     <Navbar
       logo={
         <div>
-          <b>CleverCoffee</b> <span style={{ opacity: "60%" }}>DIY PID Controller für deine Espressomaschine</span>
+          <b>CleverCoffee</b>{" "}
+          <span style={{ opacity: "60%" }}>
+            DIY PID Controller für deine Espressomaschine
+          </span>
         </div>
       }
       // Clevercoffee discord server
@@ -78,7 +83,7 @@ export default async function RootLayout({
           pageMap={pageMap}
           i18n={[
             { locale: "de", name: "Deutsch" },
-            { locale: "en", name: "English" }
+            { locale: "en", name: "English" },
           ]}
         >
           {children}

@@ -8,4 +8,4 @@ nav_order: 7
 
 # Bauberichte
 
-In diesem Abschnitt findet ihr Berichte von erfolgreichen Umbauten verschiedener Maschinentypen. 
+In diesem Abschnitt findet ihr Berichte von erfolgreichen Umbauten verschiedener Maschinentypen.

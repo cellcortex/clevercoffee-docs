@@ -4,6 +4,9 @@ const withNextra = nextra({
   contentDirBasePath: "/"
 });
 
+const isProduction = process.env.NODE_ENV === "production";
+const assetPrefix = isProduction ? "/clevercoffee-docs" : "";
+
 // You can include other Next.js configuration options here, in addition to Nextra settings:
 export default withNextra({
   reactStrictMode: true,
@@ -19,5 +22,8 @@ export default withNextra({
   output: "export",
   images: {
     unoptimized: true
-  }
+  },
+  trailingSlash: true,
+  assetPrefix,
+  basePath: assetPrefix
 });

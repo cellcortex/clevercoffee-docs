@@ -45,8 +45,8 @@ The controller to use (ESP8266 or ESP32) depends on which base board you ordered
 
 Heat-resistant cables for wiring near to the boiler.
 
-| Description                                                     | ID     | Amount PID Only | Amount Full Expansion | Link                                                                                                                              |
-| --------------------------------------------------------------- | ------ | --------------- | --------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| Description                                                      | ID     | Amount PID Only | Amount Full Expansion | Link                                                                                                                              |
+| ---------------------------------------------------------------- | ------ | --------------- | --------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
 | High Temperature Wire ÖLFLEX® HEAT 180 SIF 1 x 1.50 mm², black  | 601382 | 2               | 2                     | [Link](https://www.conrad.de/de/p/lapp-0051001-hochtemperaturader-oelflex-heat-180-sif-1-x-1-50-mm-schwarz-meterware-601382.html) |
 | High Temperature Wire ÖLFLEX® HEAT 180 SIF 1 x 1.50 mm², blue   | 600368 | 2               | 2                     | [Link](https://www.conrad.de/de/p/lapp-0051002-hochtemperaturader-oelflex-heat-180-sif-1-x-1-50-mm-blau-meterware-600368.html)    |
 | High Temperature Wire ÖLFLEX® HEAT 180 SIF 1 x 0.25 mm², black  | 604025 | 2               | 2                     | [Link](https://www.conrad.de/de/p/lapp-0047001-hochtemperaturader-oelflex-heat-180-sif-1-x-0-25-mm-schwarz-meterware-604025.html) |
