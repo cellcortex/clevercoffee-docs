@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Lelit PL41EM / PID-Only
 ---
 

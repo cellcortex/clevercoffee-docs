@@ -1,10 +1,7 @@
 ---
-layout: default
 title: Description of userConfig.h
 parent: Software
 grand_parent: EN - Manual
-has_children: false
-nav_order: 3
 ---
 
 # Description of userConfig.h

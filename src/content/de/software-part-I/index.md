@@ -1,9 +1,6 @@
 ---
-layout: default
 title: Software
-parent: DE - Handbuch
-has_children: true
-nav_order: 4
+asIndexPage: true
 ---
 
 # Software

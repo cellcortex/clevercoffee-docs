@@ -1,10 +1,7 @@
 ---
-layout: default
 title: Assembly
 parent: Hardware
 grand_parent: EN - Manual
-has_children: false
-nav_order: 1
 ---
 
 # Assembly And Installation Of Hardware

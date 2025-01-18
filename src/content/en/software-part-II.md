@@ -1,9 +1,6 @@
 ---
-layout: default
 title: Software Part II
 parent: EN - Manual
-has_children: false
-nav_order: 4
 ---
 
 # Software Teil II
@@ -27,7 +24,7 @@ When you open the .ino file, the other files which belond to the project are aut
 
 The most important functions have to be parameterized in userConfig.h. Please remember to set the correct PID mode, temperature sensor and possibly display.
 
-```
+```c
 // Display -> siehe ./customization/Displey.md
 #define DISPLAY 2            // 2 = Defaulf AZDelivery Display
 #define DISPLAYTEMPLATE 1    // 1: Standard Display Template, 2: Minimal Template
@@ -122,7 +119,7 @@ The most important functions have to be parameterized in userConfig.h. Please re
 
 Under Wifi please specify the desired hostname of the NodeMCU, the SSID to connect to and the according Wifi password. Please also check that your SSID doesn't contain any blank spaces or special characters as those often lead to problems.
 
-```
+```c
 #define HOSTNAME "Rancilio"
 
 #define D_SSID "wifiname"
@@ -134,7 +131,7 @@ Under Wifi please specify the desired hostname of the NodeMCU, the SSID to conne
 
 Under Blynk, enter your Auth token from Part 1 as AUTH.
 
-```
+```c
 #define AUTH "myauth"
 #define BLYNKADDRESS "blynk.clevercoffee.de"         // IP-Address of used blynk server
 #define BLYNKPORT 8080  //Port for blynk server

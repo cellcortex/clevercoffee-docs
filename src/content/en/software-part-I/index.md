@@ -1,9 +1,8 @@
 ---
-layout: default
 title: Software
 parent: EN - Manual
 has_children: true
-nav_order: 3
+asIndexPage: true
 ---
 
 # Software

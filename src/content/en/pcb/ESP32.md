@@ -1,10 +1,7 @@
 ---
-layout: default
 title: ESP32
 parent: PCB
 grand_parent: EN - Manual
-has_children: false
-nav_order: 1
 ---
 
 # ESP32 PCB

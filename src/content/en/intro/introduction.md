@@ -1,10 +1,7 @@
 ---
-layout: default
 title: Introduction to the PID system
 parent: Introduction
 grand_parent: EN - Manual
-has_children: false
-nav_order: 2
 ---
 
 # Introduction to the PID system

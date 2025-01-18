@@ -1,9 +1,7 @@
 ---
-layout: default
 title: Bauberichte
-parent: DE - Handbuch
-has_children: true
-nav_order: 7
+
+asIndexPage: true
 ---
 
 # Bauberichte

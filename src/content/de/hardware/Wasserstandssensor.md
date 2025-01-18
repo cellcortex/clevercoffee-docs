@@ -1,10 +1,6 @@
 ---
-layout: default
 title: Wasserstandssensor
 parent: Hardware
-grand_parent: DE - Handbuch
-has_children: false
-nav_order: 4
 ---
 
 # Einbau eines Wasserstandssensors

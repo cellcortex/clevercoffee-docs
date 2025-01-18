@@ -1,9 +1,8 @@
 ---
-layout: default
 title: Configuration & Customization
 parent: EN - Manual
 has_children: true
-nav_order: 7
+asIndexPage: true
 ---
 
 # Configuration & Customization

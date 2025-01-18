@@ -1,13 +1,9 @@
 <!---
 your comment goes here
 and here
---layout: default
---title: Visual Studio Code mit PlatformIO einrichten
+----title: Visual Studio Code mit PlatformIO einrichten
 --parent: Software
---grand_parent: DE - Handbuch
---has_children: false
---nav_order: 2
----
+---------
 
 #   {{ page.title }}
 

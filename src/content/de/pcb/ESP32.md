@@ -1,10 +1,6 @@
 ---
-layout: default
 title: ESP32
 parent: Platinen
-grand_parent: DE - Handbuch
-has_children: false
-nav_order: 1
 ---
 
 # ESP32 Platine

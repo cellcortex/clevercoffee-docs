@@ -1,8 +1,6 @@
 ---
-layout: default
 title: DE - Handbuch
 has_children: true
-nav_order: 2
 ---
 
 ## Handbuch (deutsch)

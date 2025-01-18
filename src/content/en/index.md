@@ -1,8 +1,6 @@
 ---
-layout: default
 title: EN - Manual
 has_children: true
-nav_order: 3
 ---
 
 ## Manual (english)

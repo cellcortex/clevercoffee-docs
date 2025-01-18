@@ -1,10 +1,7 @@
 ---
-layout: default
 title: Version 3.0.0 & Upgrade from 2.x
 parent: Introduction
 grand_parent: EN - Manual
-has_children: false
-nav_order: 3
 ---
 
 # What is different in version 3.0.0 ?

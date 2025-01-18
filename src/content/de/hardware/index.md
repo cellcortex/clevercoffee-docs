@@ -1,9 +1,6 @@
 ---
-layout: default
 title: Hardware
-parent: DE - Handbuch
-has_children: true
-nav_order: 5
+asIndexPage: true
 ---
 
 # Hardware

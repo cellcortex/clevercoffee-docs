@@ -1,10 +1,6 @@
 ---
-tilayout: default
-le: InfluxDB
+tile: InfluxDB
 parent: Konfiguration & Anpassung
-grand_parent: DE - Handbuch
-has_children: false
-nav_order: 6
 ---
 
 # InfluxDB

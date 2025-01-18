@@ -1,10 +1,6 @@
 ---
-layout: default
 title: PID-Werte ab Vers. 3.1.0
 parent: Konfiguration & Anpassung
-grand_parent: DE - Handbuch
-has_children: false
-nav_order: 1
 ---
 
 # PID-Werte

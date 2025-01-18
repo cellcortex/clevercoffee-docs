@@ -1,9 +1,8 @@
 ---
-layout: default
 title: Hardware
 parent: EN - Manual
 has_children: true
-nav_order: 5
+asIndexPage: true
 ---
 
 # Hardware

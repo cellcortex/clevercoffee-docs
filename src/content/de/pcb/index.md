@@ -1,9 +1,6 @@
 ---
-layout: default
 title: Platinen
-parent: DE - Handbuch
-has_children: true
-nav_order: 3
+asIndexPage: true
 ---
 
 # Platinen

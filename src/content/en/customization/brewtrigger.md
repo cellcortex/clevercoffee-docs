@@ -1,10 +1,7 @@
 ---
-layout: default
 title: Brew Switch & Brew Trigger
 parent: Configuration & Customization
 grand_parent: EN - Manual
-has_children: false
-nav_order: 8
 ---
 
 # Brew Switch and Brew Trigger

@@ -1,10 +1,6 @@
 ---
-layout: default
 title: Brüherkennung
 parent: Konfiguration & Anpassung
-grand_parent: DE - Handbuch
-has_children: false
-nav_order: 3
 ---
 
 # Brüherkennung

@@ -1,10 +1,6 @@
 ---
-layout: default
 title: Ersteinrichtung WLAN
 parent: Software
-grand_parent: DE - Handbuch
-has_children: false
-nav_order: 4
 ---
 
 # Ersteinrichtung WLAN
