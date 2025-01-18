@@ -16,26 +16,30 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [20]
     steps:
       # 1. Checkout the repository
       - name: Checkout Repository
         uses: actions/checkout@v4
 
       # 2. Setup Node.js
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: "20" # Specify your Node.js version
-          cache: "pnpm" # Enable caching for pnpm
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v4
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: 'pnpm'
 
       # 3. Setup pnpm
       - name: Setup pnpm
-        uses: pnpm/action-setup@v2
+        uses: pnpm/action-setup@v4
         with:
-          version: "7" # Specify the desired pnpm version
+          version: 10 # Specify the desired pnpm version
 
       # 4. Restore Cache
       - name: Restore Cache
