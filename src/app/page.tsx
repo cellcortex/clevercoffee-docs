@@ -19,38 +19,36 @@ const RootRedirect = () => {
     const defaultLocale = "de";
 
     // Determine the target locale
-    const targetLocale = supportedLocales.includes(langCode)
-      ? langCode
-      : defaultLocale;
+    const targetLocale = supportedLocales.includes(langCode) ? langCode : defaultLocale;
 
     // Redirect to the localized path
     router.replace(`/${targetLocale}`);
   }, [router]);
 
   return (
-    <>
-      <Head>
+    <html lang="en">
+      <head>
+        <title>CleverCoffee Documentation</title>
+        <meta name="description" content="CleverCoffee Documentation" />
         <title>CleverCoffee</title>
         <meta httpEquiv="Content-Language" content="en" />
         <link rel="alternate" hrefLang="en" href="https://yourdomain.com/en" />
         <link rel="alternate" hrefLang="de" href="https://yourdomain.com/de" />
-        <link
-          rel="alternate"
-          hrefLang="x-default"
-          href="https://yourdomain.com/en"
-        />
-      </Head>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          height: "100vh",
-        }}
-      >
-        <p>Redirecting to your preferred language...</p>
-      </div>
-    </>
+        <link rel="alternate" hrefLang="x-default" href="https://yourdomain.com/en" />
+      </head>
+      <body>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            height: "100vh"
+          }}
+        >
+          <p>Redirecting to your preferred language...</p>
+        </div>
+      </body>
+    </html>
   );
 };
 

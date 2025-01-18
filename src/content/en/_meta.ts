@@ -9,13 +9,13 @@ export default {
     }
   },
   intro: {
-    title: "Einführung"
+    title: "Introduction"
   },
   bom: {
-    title: "Bestellliste"
+    title: "Bill of Materials"
   },
   pcb: {
-    title: "Platinen"
+    title: "Boards"
   },
   "software-part-I": {
     title: "Software"
@@ -24,7 +24,7 @@ export default {
     title: "Hardware"
   },
   customization: {
-    title: "Konfiguration & Anpassung"
+    title: "Configuration & Customization"
   },
   faq: {
     theme: {
