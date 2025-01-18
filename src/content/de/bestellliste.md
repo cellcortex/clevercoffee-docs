@@ -8,13 +8,6 @@ nav_order: 2
 
 # Bestellliste
 
-{: .no_toc }
-
-Inhaltsverzeichnis
-
-- TOC
-  {:toc}
-
 ## Warnhinweis
 
 > {{ site.warning.de }}

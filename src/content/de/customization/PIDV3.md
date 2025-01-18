@@ -9,13 +9,6 @@ nav_order: 1
 
 # PID-Werte
 
-{: .no_toc }
-
-Inhaltsverzeichnis
-
-- TOC
-  {:toc}
-
 ## Einleitung
 
 Der PID-Regler soll die folgenden Betriebszustände korrekt handhaben:

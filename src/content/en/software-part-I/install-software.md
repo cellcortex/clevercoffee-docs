@@ -1,13 +1,9 @@
 ---
 layout: default
 title: Install Software
-parent: Software
-grand_parent: EN - Manual
-has_children: false
-nav_order: 1
 ---
 
-# {{ page.title }}
+# Install Software
 
 {: .no_toc }
 

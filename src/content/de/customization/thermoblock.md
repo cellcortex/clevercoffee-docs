@@ -9,13 +9,6 @@ nav_order: 7
 
 # Thermoblock - Anpassungen
 
-{: .no_toc }
-
-Inhaltsverzeichnis
-
-- TOC
-  {:toc}
-
 ## Einleitung
 
 Die PID lässt sich auch zur Steuerung von Thermoblock Maschinen einsetzen. Je nach Aufbau der Maschine muss die Steuerung angepasst werden. Details zu bereits erfolgten Umbauten und den in der PID umgesetzten Features werden im Folgenden beschrieben.

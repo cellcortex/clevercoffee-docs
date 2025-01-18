@@ -1,22 +1,9 @@
 ---
 layout: default
 title: Lelit PL41EM / PID-Only
-parent: Bauberichte
-grand_parent: DE - Handbuch
-has_children: false
-nav_order: 1
 ---
 
-# {{ page.title }}
-
-<details open markdown="block">
-  <summary>
-    Inhaltsverzeichnis
-  </summary>
-  {: .text-delta }
-1. TOC
-{:toc}
-</details>
+# Lelit PL41EM / PID-Only
 
 <!-- ## Bestellliste
 

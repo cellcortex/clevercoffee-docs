@@ -9,13 +9,6 @@ nav_order: 2
 
 # PID-Werte
 
-{: .no_toc }
-
-Inhaltsverzeichnis
-
-- TOC
-  {:toc}
-
 ## Einleitung
 
 Hier möchten wir dir die wesentlichen Bedienelemente der PID in Blynk erläutern und dich bei den ersten Schritten hin zu einem besseren Espresso mit deinem eigenen PID unterstützen.

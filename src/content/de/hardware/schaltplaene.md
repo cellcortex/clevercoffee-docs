@@ -9,13 +9,6 @@ nav_order: 2
 
 # Schaltpläne
 
-{: .no_toc }
-
-Inhaltsverzeichnis
-
-- TOC
-  {:toc}
-
 ## Warnhinweis
 
 > {{ site.warning.de }}

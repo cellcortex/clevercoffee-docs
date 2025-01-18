@@ -9,13 +9,6 @@ nav_order: 4
 
 # Aufbau und Einbau der Waage
 
-{: .no_toc }
-
-Inhaltsverzeichnis
-
-- TOC
-  {:toc}
-
 ## Einführung
 
 Für den Vollausbau besteht die Möglichkeit der Ergänzung einer Waage für den Bezug nach Gewicht (Stopp bei Zielgewicht).

@@ -1,20 +1,9 @@
 ---
 layout: default
 title: Einbau
-parent: Hardware
-grand_parent: DE - Handbuch
-has_children: false
-nav_order: 3
 ---
 
-# {{ page.title }}
-
-{: .no_toc }
-
-Inhaltsverzeichnis
-
-- TOC
-  {:toc}
+# Einbau
 
 Grundsätzlich würde ich alle Kabel erstmal mit einer Kabellänge von ca. 60 cm abschneiden. Nach dem Einbau auf Seite 1 und dem Verlegen sollten diese beim Anschließen an Seite 2 gekürzt werden.
 

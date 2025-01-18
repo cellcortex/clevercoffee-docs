@@ -9,13 +9,6 @@ nav_order: 5
 
 # LED-Umbau der Wippschalter
 
-{: .no_toc }
-
-Inhaltsverzeichnis
-
-- TOC
-  {:toc}
-
 ## Warnhinweis
 
 > {{ site.warning.de }}

@@ -1,13 +1,9 @@
 ---
 layout: default
 title: WiFi Configuration
-parent: Software
-grand_parent: EN - Manual
-has_children: false
-nav_order: 4
 ---
 
-# {{ page.title }}
+# WiFi Configuration
 
 {: .no_toc }
 

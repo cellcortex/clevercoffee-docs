@@ -9,13 +9,6 @@ nav_order: 4
 
 # Monitoring
 
-{: .no_toc }
-
-Inhaltsverzeichnis
-
-- TOC
-  {:toc}
-
 ## Einleitung
 
 Die Blynk-App kann so eingerichtet werden, dass via eines sog. Webhooks ein Monitoring genutzt werden kann. Dafür wird [Grafana](https://grafana.com/) genutzt. Damit sind auch die vorhandenen PID-Charts erstellt entstanden:

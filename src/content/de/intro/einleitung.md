@@ -9,13 +9,6 @@ nav_order: 2
 
 # Einleitung PID System
 
-{: .no_toc }
-
-Inhaltsverzeichnis
-
-- TOC
-  {:toc}
-
 ## Was bringt mir eine PID-Steuerung?
 
 Eine PID-Regelung ermöglicht es deiner Espressomaschine die Temperatur des Brühwassers sehr viel exakter und konstanter zu regeln als das mit den werksseitig verbauten Bimetall-Thermostaten möglich ist.

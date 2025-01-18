@@ -1,20 +1,9 @@
 ---
 layout: default
 title: Software installieren
-parent: Software
-grand_parent: DE - Handbuch
-has_children: false
-nav_order: 1
 ---
 
-# {{ page.title }}
-
-{: .no_toc }
-
-Inhaltsverzeichnis
-
-- TOC
-  {:toc}
+# Software installieren
 
 ## Übersicht
 

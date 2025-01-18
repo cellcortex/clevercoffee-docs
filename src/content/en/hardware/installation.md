@@ -1,13 +1,9 @@
 ---
 layout: default
 title: Installation
-parent: Hardware
-grand_parent: EN - Manual
-has_children: false
-nav_order: 3
 ---
 
-# {{ page.title }}
+# Installation
 
 {: .no_toc }
 

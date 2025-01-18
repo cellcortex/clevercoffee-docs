@@ -9,13 +9,6 @@ nav_order: 4
 
 # Einbau eines Wasserstandssensors
 
-{: .no_toc }
-
-Inhaltsverzeichnis
-
-- TOC
-  {:toc}
-
 ## Einführung
 
 Ab Version 4.0.0 wird der Einbau eines Wasserstandssensors unterstützt, der kontaktlos den Wasserstand im Kunststofftank der Maschine

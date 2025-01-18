@@ -9,13 +9,6 @@ nav_order: 3
 
 # Brüherkennung
 
-{: .no_toc }
-
-Inhaltsverzeichnis
-
-- TOC
-  {:toc}
-
 ## Einleitung
 
 Es wird empfohlen, das **brew detection** Feature beim ersten Test zu deaktivieren. Wenn der normale PID gut läuft, es sich ein für dich angenehmes Heizverhalten beim Starten zeigt und die Regelung stabil am Soll-Wert läuft, dann kannst du dir die Brüherkennung genauer anschauen.

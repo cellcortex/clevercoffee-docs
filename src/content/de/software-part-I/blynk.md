@@ -9,13 +9,6 @@ nav_order: 5
 
 # Einrichtung von Blynk nur für Version 2.x, nicht mehr für neuere Versionen relevant.
 
-{: .no_toc }
-
-Inhaltsverzeichnis
-
-- TOC
-  {:toc}
-
 ## Hinweis
 
 Blynk ist nicht mehr zwingend notwendig ab Version 3.0.0, da Blynk als lokaler Server abgekündigt wurde. Es kann aber weiterhin genutzt werden über die offizielle Cloud Variante von Blynk. Wir empfehlen die neue per ESP gehostet Webseite für das Einstellen der Werte zu nutzen.

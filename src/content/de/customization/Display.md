@@ -9,13 +9,6 @@ nav_order: 5
 
 # Display
 
-{: .no_toc }
-
-Inhaltsverzeichnis
-
-- TOC
-  {:toc}
-
 ## Einleitung
 
 Es stehen dir mehrere Designs für dein Display zur Verfügung.

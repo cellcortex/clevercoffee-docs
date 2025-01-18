@@ -1,20 +1,16 @@
 ---
 layout: default
 title: Install Software (CLI)
-parent: Software
-grand_parent: EN - Manual
-has_children: false
-nav_order: 2
 ---
 
-# {{ page.title }}
+# Install Software (CLI)
+
 {: .no_toc }
 
 Contents
 
-* TOC
-{:toc}
-
+- TOC
+  {:toc}
 
 ## Overview
 
@@ -22,10 +18,10 @@ This installation tutorial is meant for users that prefer the command line inter
 The following steps are only tested on Linux, but should also work on MacOS.
 
 The following software tools are required:
-* Git
-* Python
-* PlatformIO (via pip)
 
+- Git
+- Python
+- PlatformIO (via pip)
 
 ## Installation Of Git
 
@@ -37,7 +33,6 @@ Clone the project into a folder of your choice:
 $ git clone https://github.com/rancilio-pid/clevercoffee.git
 $ cd clevercoffee/
 ```
-
 
 ## Installation Of PlatformIO
 
@@ -62,7 +57,6 @@ Install all requirements via `pip`:
 (env) $ pip install setuptools platformio
 ```
 
-
 ## Compiling and Uploading
 
 Connect your ESP32 to your computer via USB and ensure that PlatformIO recognizes the microcontroller:
@@ -82,6 +76,7 @@ Description: CP2102 USB to UART Bridge Controller - CP2102 USB to UART Bridge Co
 ```
 
 > **Note**: You can list all available targets with:
+>
 > ```
 > (env) $ platformio run --list-targets
 > ```
