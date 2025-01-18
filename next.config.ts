@@ -14,12 +14,10 @@ export default withNextra({
   },
   i18n: {
     locales: ["de", "en"],
-    defaultLocale: "de",
-    localeDetection: true
+    defaultLocale: "de"
   },
   output: "export",
   distDir: "docs",
-  search: true,
   images: {
     unoptimized: true
   }

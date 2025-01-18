@@ -11,7 +11,7 @@ const RootRedirect = () => {
 
   useEffect(() => {
     // Detect the user's preferred language
-    const language = navigator.language || navigator.userLanguage;
+    const { language } = navigator;
     const langCode = language.split("-")[0].toLowerCase();
 
     // Define supported locales
