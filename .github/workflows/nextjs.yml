@@ -5,7 +5,6 @@ name: Deploy Nextra Site to GitHub Pages
 on:
   push:
     branches: ["main"]
-
   workflow_dispatch:
 
 permissions:
@@ -22,79 +21,47 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # 1. Checkout the repository
-      - name: Checkout
+      - name: Checkout Repository
         uses: actions/checkout@v4
 
-      # 2. Detect Package Manager (Add pnpm detection)
-      - name: Detect package manager
-        id: detect-package-manager
-        run: |
-          if [ -f "${{ github.workspace }}/pnpm-lock.yaml" ]; then
-            echo "manager=pnpm" >> $GITHUB_OUTPUT
-            echo "command=install" >> $GITHUB_OUTPUT
-            echo "runner=pnpm" >> $GITHUB_OUTPUT
-            exit 0
-          elif [ -f "${{ github.workspace }}/yarn.lock" ]; then
-            echo "manager=yarn" >> $GITHUB_OUTPUT
-            echo "command=install" >> $GITHUB_OUTPUT
-            echo "runner=yarn" >> $GITHUB_OUTPUT
-            exit 0
-          elif [ -f "${{ github.workspace }}/package-lock.json" ]; then
-            echo "manager=npm" >> $GITHUB_OUTPUT
-            echo "command=ci" >> $GITHUB_OUTPUT
-            echo "runner=npx --no-install" >> $GITHUB_OUTPUT
-            exit 0
-          else
-            echo "Unable to determine package manager"
-            exit 1
-          fi
-
-      # 3. Setup Node.js (Configure pnpm caching)
+      # 2. Setup Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: "20" # Specify your Node.js version
-          cache: ${{ steps.detect-package-manager.outputs.manager }}
-          # Optional: Specify pnpm version if needed
-          # pnpm-version: "7.x"
+          cache: "pnpm" # Enable caching for pnpm
 
-      # 4. Install pnpm if it's the detected package manager
-      - name: Install pnpm
-        if: steps.detect-package-manager.outputs.manager == 'pnpm'
-        run: npm install -g pnpm
-
-      # 5. Configure GitHub Pages (Specify static site generator)
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
+      # 3. Setup pnpm
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
         with:
-          static_site_generator: next
+          version: "7" # Specify the desired pnpm version
 
-      # 6. Restore cache (Optimize build times)
-      - name: Restore cache
+      # 4. Restore Cache
+      - name: Restore Cache
         uses: actions/cache@v4
         with:
           path: |
-            .next/cache
-            # pnpm stores global packages in the pnpm store directory
-            ~/.pnpm-store
-          key: ${{ runner.os }}-nextra-${{ hashFiles('**/pnpm-lock.yaml', '**/yarn.lock', '**/package-lock.json') }}-${{ hashFiles('**/*.js', '**/*.ts', '**/*.jsx', '**/*.tsx') }}
+            .next/cache               # Next.js build cache
+            ~/.pnpm-store             # pnpm store for cached dependencies
+          key: ${{ runner.os }}-nextra-${{ hashFiles('**/pnpm-lock.yaml') }}-${{ hashFiles('**/*.js', '**/*.ts', '**/*.jsx', '**/*.tsx') }}
           restore-keys: |
             ${{ runner.os }}-nextra-
 
-      # 7. Install Dependencies using pnpm
-      - name: Install dependencies
-        run: ${{ steps.detect-package-manager.outputs.runner }} ${{ steps.detect-package-manager.outputs.command }}
+      # 5. Install Dependencies using pnpm
+      - name: Install Dependencies
+        run: pnpm install
 
-      # 8. Build the Site
+      # 6. Build the Site
       - name: Build the Site
-        run: ${{ steps.detect-package-manager.outputs.runner }} next build
+        run: pnpm build
 
-      # 9. Add .nojekyll to Prevent Jekyll Processing
+      # 7. Add .nojekyll to Prevent Jekyll Processing
       - name: Add .nojekyll
         run: touch ./docs/.nojekyll
 
-      # 10. Upload the Build Artifact
-      - name: Upload artifact
+      # 8. Upload the Build Artifact
+      - name: Upload Build Artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./docs # Ensure this matches your build output directory
@@ -106,7 +73,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-      # 11. Deploy to GitHub Pages
+      # 9. Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
