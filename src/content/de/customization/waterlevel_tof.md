@@ -11,7 +11,9 @@ nav_order: 7
 
 ## Einleitung
 
-**Disclaimer: dieses Feature wird demnächst überarbeitet, das das Prinzip nicht stabil genug funktioniert. Eine Umsetzung ist so wie hier beschrieben nicht empfohlen.**
+> [!NOTE]
+>
+> Dieses Feature wird demnächst überarbeitet, das das Prinzip nicht stabil genug funktioniert. Eine Umsetzung ist so > wie hier beschrieben nicht empfohlen.\*\*
 
 Falls bei dir auch öfter mal während des Bezugs plötzlich das Wasser in der Maschine leer ist, kann das Upgrade mit einem Wasserstandsensor eine sinnvolle Erweiterung sein. Hierbei wird der aktuelle Füllstand in % im Display ausgegeben und bei Unterschreitung eines gewissen Wertes (aktuell 10%) eine Warnung angezeigt. Die Erfassung des aktuellen Wasserstandes erfolgt hierbei mittels eines Time-of-Flight(ToF) Sensors
 

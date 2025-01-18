@@ -23,7 +23,6 @@ export default withNextra({
   images: {
     unoptimized: true
   },
-  trailingSlash: true,
   assetPrefix,
   basePath: assetPrefix
 });
