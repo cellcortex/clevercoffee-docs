@@ -17,5 +17,6 @@ export default withNextra({
     defaultLocale: "de"
   },
   output: "export",
+  distDir: "docs",
   search: true
 });
