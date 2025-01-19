@@ -1,6 +1,5 @@
 ---
 title: ESP32
-parent: PCB
 grand_parent: EN - Manual
 ---
 

@@ -120,9 +120,9 @@ On our relay board, we will be using `SW2` for controlling the pump.
 
 There are countless possibilities on how to position the display. Below, you can see two variations:
 
-|           3D-printed display case            |                                Powered by Dremel                                |
-| :------------------------------------------: | :-----------------------------------------------------------------------------: |
-| ![Display](/img/hardware/einbau/Display.jpg) | ![](https://clevercoffee.de/wp-content/uploads/2021/04/IMG_20210404_151123.jpg) |
+|           3D-printed display case            |                    Powered by Dremel                     |
+| :------------------------------------------: | :------------------------------------------------------: |
+| ![Display](/img/hardware/einbau/Display.jpg) | ![](/wp-content/uploads/2021/04/IMG_20210404_151123.jpg) |
 
 If you own a rotary power tool, bring some skill with it and are not stopped by the fact that you will do irreversible change to your machine, you can craft a fine and presentable solution with it.
 

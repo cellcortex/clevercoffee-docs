@@ -9,7 +9,7 @@ parent: Konfiguration & Anpassung
 
 InfluxDB kann nach der Konfiguration von folgenden Punkten in der userConfig zum speichern von werten genutzt werden:
 
-```
+```c
 #define INFLUXDB 0                 // 1 = INFLUX enabled, 0 = INFLUX disabled
 #define INFLUXDB_URL ""            // InfluxDB server address (http://influx0:8086)
 #define INFLUXDB_INSECURE 1        // 1 = INFLUXClient setInsecure enabled , 0 = INFLUXClient setInsecure disabled
@@ -29,7 +29,7 @@ Eine vollständige Liste aller Parameter findet sich in der Datei InfluxDB.h (sp
 
 Beispiel Konfiguration fuer InfluxDB Version < 2.x:
 
-```
+```c
 #define INFLUXDB 1
 #define INFLUXDB_URL "https://influx0:8086"
 #define INFLUXDB_INSECURE 1
@@ -47,7 +47,7 @@ Beispiel Konfiguration fuer InfluxDB Version < 2.x:
 
 Beispiel Konfiguration fuer InfluxDB Version >= 2.x:
 
-```
+```c
 #define INFLUXDB 1
 #define INFLUXDB_URL "https://influx0:8086"
 #define INFLUXDB_INSECURE 1

@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {
   index: {
     type: "page",
@@ -5,6 +6,9 @@ export default {
     theme: {
       typesetting: "article"
     }
+  },
+  landing: {
+    title: "Landing Page"
   },
   intro: {
     title: "Einführung"

@@ -7,6 +7,7 @@ import "./styles.css";
 import { PageMapItem, Folder, MdxFile } from "nextra";
 import { getDictionary } from "@/dictionaries/get-dictionary";
 import Image from "next/image";
+import logo from "../../public/logo.png";
 
 export async function generateStaticParams() {
   return [{ lang: "en" }, { lang: "de" }];
@@ -60,7 +61,7 @@ export default async function RootLayout({
     <Navbar
       logo={
         <>
-          <Image height={48} width={48} src="/logo.png" alt="CleverCoffee Logo" />
+          <Image height={48} width={48} src={logo} alt="CleverCoffee Logo" />
           <span className="ms-2 font-extrabold select-none max-md:hidden" title={`${dictionary.logo.title}`}>
             <b>{dictionary.logo.title}</b> <span style={{ opacity: "60%" }}>{dictionary.logo.claim}</span>
           </span>
@@ -73,7 +74,7 @@ export default async function RootLayout({
   );
   return (
     <html lang={lang} dir="ltr" suppressHydrationWarning>
-      <Head faviconGlyph="✦" />
+      <Head faviconGlyph="☕" />
       <body>
         <Layout
           banner={<Banner storageKey="Clevercoffee 4">CleverCoffee 4</Banner>}

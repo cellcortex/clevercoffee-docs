@@ -1,7 +1,6 @@
 ---
 title: PCB
 parent: EN - Manual
-has_children: true
 asIndexPage: true
 ---
 

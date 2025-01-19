@@ -1,6 +1,5 @@
 ---
 title: ESP32
-parent: Platinen
 ---
 
 # ESP32 Platine

@@ -36,7 +36,7 @@ enum MACHINE {
 
 Enter the ID of your machine here. This parameter defines what logo is shown on the display (if connected), and for the Quick Mill also detects brewing, as well as the steam mode when `BREWDETECTION` is set to 3.
 
-```
+```c
 #define MACHINEID 0                //  see above list of supported machines
 ```
 
@@ -44,7 +44,7 @@ Enter the ID of your machine here. This parameter defines what logo is shown on 
 
 All relevant settings for the display are configured here.
 
-```
+```c
 #define OLED_DISPLAY 2             // 0 = deactivated, 1 = SH1106 (e.g. 1.3 "128x64), 2 = SSD1306 (e.g. 0.96" 128x64)
 #define OLED_I2C 0x3C              // I2C address for OLED, 0x3C by default
 #define DISPLAYTEMPLATE 1          // 1 = Standard Display Template, 2 = Minimal Template, 3 = only       Temperature, 4 = Scale Template, 20 = vertical Display see git Handbook for further information
@@ -81,7 +81,7 @@ All relevant settings for the display are configured here.
 
 Here, the most important parameters for the PID hardware are defined.
 
-```
+```c
 #define ONLYPID 1                  // 1 = Only PID, 0 = PID and preinfusion
 #define ONLYPIDSCALE 0             // 0 = off , 1 = OnlyPID with Scale
 #define BREWMODE 1                 // 1 = Brew by time (with preinfusion); 2 = Brew by weight (from scale)
@@ -112,7 +112,7 @@ Here, the most important parameters for the PID hardware are defined.
 
 ## TOF Sensor for water level measurement
 
-```
+```c
 #define TOF 0                      // 0 = no TOF sensor connected; 1 = water level by TOF sensor
 #define TOF_I2C 0x29               // I2C address of TOF sensor; 0x29 by default
 #define CALIBRATION_MODE 0         // 1 = enable to obtain water level calibration values; 0 = disable    for normal PID operation; can also be done in Blynk
@@ -124,7 +124,7 @@ If you don't have a TOF sensor, you can ignore this part and set `TOF` to zero (
 
 ## E-Trigger
 
-```
+```c
 #define ETRIGGER 0                 // 0 = no trigger (for Rancilio except Rancilio E), 1 = trigger for    CPU of Rancilio E
 #define ETRIGGERTIME 60            // seconds, time between trigger signal
 #define TRIGGERRELAYTYPE HIGH      // LOW = low trigger, HIGH = high trigger relay for E-Trigger
@@ -139,7 +139,7 @@ The corresponding Pins will be defined in [Pin Layout](#pin-layout) further belo
 
 ## Weight Scale
 
-```
+```c
 #define WEIGHTSETPOINT 30          // Gramm
 ```
 
@@ -147,7 +147,7 @@ The corresponding Pins will be defined in [Pin Layout](#pin-layout) further belo
 
 ## WiFi
 
-```
+```c
 #define HOSTNAME "rancilio"
 #define MAXWIFIRECONNECTS 5        // maximum number of reconnection attempts, use -1 to deactivate
 #define WIFICINNECTIONDELAY 10000  // delay between reconnects in ms
@@ -161,7 +161,7 @@ The corresponding Pins will be defined in [Pin Layout](#pin-layout) further belo
 
 ## OTA
 
-```
+```c
 #define OTA true                   // true = OTA activated, false = OTA deactivated
 #define OTAHOST "rancilio"         // Name to be shown in ARUDINO IDE Port
 #define OTAPASS "otapass"          // Password for OTA updates
@@ -169,7 +169,7 @@ The corresponding Pins will be defined in [Pin Layout](#pin-layout) further belo
 
 ## MQTT
 
-```
+```c
 #define MQTT 0                             // 0 = MQTT disabled, 1 = MQTT enabled
 #define MQTT_USERNAME "mymqttuser"
 #define MQTT_PASSWORD "mymqttpass"
@@ -180,7 +180,7 @@ The corresponding Pins will be defined in [Pin Layout](#pin-layout) further belo
 
 ## Backflush values
 
-```
+```c
 #define MAXFLUSHCYCLES 5           // Number of cycles the backflush should run, 0 = disabled
 #define FILLTIME 3000              // Time in ms the pump is running
 #define FLUSHTIME 6000             // Time in ms the 3-way valve is open -> backflush

@@ -1,6 +1,5 @@
 ---
 title: Assembly
-parent: Hardware
 grand_parent: EN - Manual
 ---
 

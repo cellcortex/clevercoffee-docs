@@ -1,4 +1,5 @@
 import nextra from "nextra";
+import { locales, defaultLocale } from "./src/i18n";
 
 const withNextra = nextra({
   contentDirBasePath: "/"
@@ -16,10 +17,11 @@ export default withNextra({
     ignoreDuringBuilds: true
   },
   i18n: {
-    locales: ["de", "en"],
-    defaultLocale: "de"
+    locales,
+    defaultLocale
   },
   output: "export",
+  trailingSlash: true,
   images: {
     unoptimized: true
   },

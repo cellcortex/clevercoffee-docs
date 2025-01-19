@@ -8,7 +8,7 @@ title: WiFi Configuration
 
 For versions 3.3.0 and later on the ESP8266, we removed the WiFiManager again, since it lead to a crash during the initial setup. Please put your WiFi connection details (WiFi name and password) into the `userConfig.h` directly:
 
-```
+```c
 #define WIFI_SSID "yourSSID"       // SSID of your WiFi network
 #define WIFI_PASS "yourWiFiPass"   // WPA key to your WiFi network
 ```

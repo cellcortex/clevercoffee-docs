@@ -1,8 +1,3 @@
----
-title: DE - Handbuch
-has_children: true
----
-
 ## Handbuch (deutsch)
 
 Dies ist das deutsche Handbuch für die Umsetzung des CleverCoffee Projektes. Dieses Handbuch deckt alle notwendigen Schritte für den Einbau und die Konfiguration ab.

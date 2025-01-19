@@ -1,6 +1,5 @@
 ---
 title: Einrichtung von Blynk (nur 2.x)
-parent: Software
 ---
 
 # Einrichtung von Blynk nur für Version 2.x, nicht mehr für neuere Versionen relevant.

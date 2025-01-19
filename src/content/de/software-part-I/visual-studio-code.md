@@ -2,8 +2,7 @@
 your comment goes here
 and here
 ----title: Visual Studio Code mit PlatformIO einrichten
---parent: Software
----------
+-----------
 
 #   {{ page.title }}
 

@@ -1,6 +1,5 @@
 ---
 title: EN - Manual
-has_children: true
 ---
 
 ## Manual (english)

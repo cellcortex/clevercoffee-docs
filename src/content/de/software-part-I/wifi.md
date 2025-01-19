@@ -1,6 +1,5 @@
 ---
 title: Ersteinrichtung WLAN
-parent: Software
 ---
 
 # Ersteinrichtung WLAN
@@ -9,7 +8,7 @@ parent: Software
 
 Beim ESP8266 haben wir mit Release 3.3.0 den WiFiManager wieder entfernt, da dieser für einen Absturz bei der Ersteinrichtung geführt hat. Tragt eure WLAN-Zugangsdaten bitte in der `userConfig.h` ein:
 
-```
+```c
 #define WIFI_SSID "yourSSID"       // SSID of your WiFi network
 #define WIFI_PASS "yourWiFiPass"   // WPA key to your WiFi network
 ```

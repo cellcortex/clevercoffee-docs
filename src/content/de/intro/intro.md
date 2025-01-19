@@ -1,6 +1,5 @@
 ---
 title: Einleitung PID System
-parent: Einführung
 ---
 
 # Einleitung PID System

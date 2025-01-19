@@ -1,6 +1,5 @@
 ---
 title: Wasserstandssensor
-parent: Hardware
 ---
 
 # Einbau eines Wasserstandssensors

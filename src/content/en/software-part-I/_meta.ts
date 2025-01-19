@@ -1,15 +1,15 @@
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
-  programmcode: {
+  code: {
     title: "Install Software"
   },
-  "programmcode-cli": {
+  cli: {
     title: "Install Software (CLI)"
   },
   userconfig: {
     title: "Description of userConfig.h"
   },
-  "wifi-configuration": {
+  wifi: {
     title: "WiFi Configuration"
   }
 };

@@ -11,7 +11,7 @@ grand_parent: EN - Manual
 CleverCoffee supports both brew switches (which remain switched on after flipping) and brew triggers (which automatically snap back after flipping) in the "full configuration".
 Depending on the hardware installed, the configuration in `userConfig.h` must be adapted:
 
-```
+```c
 #define FEATURE_BREWSWITCH 0                     // 0 = deactivated, 1 = activated
 #define BREWSWITCH_TYPE Switch::TOGGLE           // Switch::TOGGLE or Switch::MOMENTARY (trigger)
 ```

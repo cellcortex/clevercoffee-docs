@@ -1,6 +1,5 @@
 ---
 title: Introduction to the PID system
-parent: Introduction
 grand_parent: EN - Manual
 ---
 

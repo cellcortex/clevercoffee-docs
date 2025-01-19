@@ -1,6 +1,5 @@
 ---
 title: Waageneinbau
-parent: Hardware
 ---
 
 # Aufbau und Einbau der Waage
@@ -25,7 +24,7 @@ Eine Auswahl auf ![Thingiverse](https://www.thingiverse.com/search?q=silvia+load
 
 Anschließend verbindet ihr die Zellen mit dem/den HX711 und diese(n) mit den Pins am ESP32:
 
-```
+```c
 #define PIN_HXDAT 32            // Brew scale data pin 1
 #define PIN_HXDAT2 25           // Brew scale data pin 2
 #define PIN_HXCLK 33            // Brew scale clock pin

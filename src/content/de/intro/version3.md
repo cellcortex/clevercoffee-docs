@@ -1,6 +1,5 @@
 ---
 title: Version 3.0.0 & Upgrade von 2.x
-parent: Einführung
 ---
 
 # Was ist anders ab Version 3.0.0 ?

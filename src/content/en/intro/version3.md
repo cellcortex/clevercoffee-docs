@@ -1,6 +1,5 @@
 ---
 title: Version 3.0.0 & Upgrade from 2.x
-parent: Introduction
 grand_parent: EN - Manual
 ---
 

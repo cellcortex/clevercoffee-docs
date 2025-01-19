@@ -10,6 +10,7 @@
     "lint": "next lint",
     "export": "next export",
     "type-check": "tsc",
+    "clean": "rm -rf .next out",
     "postbuild": "pagefind --site .next/server/app --output-path out/_pagefind",
     "deploy": "gh-pages -t -d out"
   },

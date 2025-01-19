@@ -1,7 +1,6 @@
 ---
 title: Hardware
 parent: EN - Manual
-has_children: true
 asIndexPage: true
 ---
 

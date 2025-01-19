@@ -9,7 +9,7 @@ parent: Konfiguration & Anpassung
 
 MQTT kann nach der Konfiguration von folgenden Punkten in der userConfig zur Steuerung und zum Auslesen von werten genutzt werden:
 
-```
+```c
 #define MQTT 1                             // 1 = MQTT enabled, 0 = MQTT disabled
 #define MQTT_USERNAME "mymqttuser"
 #define MQTT_PASSWORD "mymqttpass"
