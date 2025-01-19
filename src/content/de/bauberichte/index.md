@@ -1,6 +1,5 @@
 ---
 title: Bauberichte
-
 asIndexPage: true
 ---
 

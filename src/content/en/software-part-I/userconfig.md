@@ -1,7 +1,5 @@
 ---
 title: Description of userConfig.h
-parent: Software
-grand_parent: EN - Manual
 ---
 
 # Description of userConfig.h
